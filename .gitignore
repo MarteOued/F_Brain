@@ -1,0 +1,17 @@
+cat << 'EOF' > .gitignore
+
+node_module/
+dist/
+
+
+__pycache__/
+*.pyc
+.env
+
+
+*.log
+
+.vscode/
+
+.DS_Store
+EOF
